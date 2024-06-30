@@ -1,0 +1,117 @@
+ <div class="content">
+            <div class="col-1">
+                <h1> Angelz Kitchen</h1>
+                <h3>Home For <br>Food Lovers</h3>
+                <p>(Discount Available)</p>
+                <h4>$3.80</h4>
+        </div>
+        <div class="col-2">
+       <img src="image/chicken&chips.jpg">
+       <h3>Chicken & Chips</h3>
+       <button type="button" class="button" onclick="showDialog()">Buy Now</button>
+    </div>
+    </div>
+    
+    
+      </div>
+      <div class="content-2">
+        <div class="grid-wrapper">
+            <div class="grid-content">
+           <h1>Delicious Meals </h1>
+           <h3>To satisfy your Hunger</h3>
+           <p>Remember a Hungry Man Is An<br>Angry Man...</brt></p>
+        </div>
+            <div class="grid-image">
+            <img src="image/20201102_203111.jpg">
+            <img src="image/20201121_173855.jpg">
+            <img src="image/20220816_010635.jpg">
+            <img src="image/20220816_010651.jpg">
+            <img src="image/20220816_010725.jpg">
+            <img src="image/20220816_010749.jpg">
+            <img src="image/20220816_010806.jpg">
+            <img src="image/20220816_010828.jpg">
+            <img src="image/20220816_010851.jpg">
+            <img src="image/20220816_010907.jpg">
+            <img src="image/20220816_010953.jpg">
+            <img src="image/20220816_011014.jpg">
+            <img src="image/20220816_011030.jpg">
+            <img src="image/20220816_011142.jpg">
+            <img src="image/20220816_011153.jpg">
+            
+         </div> 
+        </div>
+      </div>
+      <div class="content-3">
+        <h1>African Foods</h1>
+        <div class="grid-wrapper-2">
+           <img src="image/image-1.jpg" >
+           <img src="image/image-2.jpg" >
+           <img src="image/image-3.jpg" >
+           <img src="image/image-4.jpg" >
+           <img src="image/image-5.jpg" >
+           <img src="image/image-6.jpg" >
+           <img src="image/image-7.jpg" >
+           <img src="image/image-8.jpg" >
+           <img src="image/image-9.jpg" >
+           <img src="image/image-10.jpg" >
+           <img src="image/image-11.jpg" >
+           <img src="image/image-12.jpg" >
+        </div>
+      </div>
+    <footer class="footer">
+        <div class="grid-fcontent">
+            <div class="f-content">
+                <h1>Company</h1>
+                <hr>
+                <ul>
+                    <li><a href="#">Our Sevices</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Address</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="f-content">
+                <h1>Get Help</h1>
+                <hr>
+                <ul>
+                    <li><a href="file:///C:/Users/VICTORIOUS/Desktop/cc/cc.html " target="blank">Delivery</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Complains</a></li>
+                    <li><a href="#">Order status</a></li>
+                </ul>
+            </div>
+            <div class="f-content">
+                <h1>African Dishes</h1>
+                <hr>
+                <ul>
+                    <li><a href="#">Joll Of Rice</a></li>
+                    <li><a href="#">Fried Rice</a></li>
+                    <li><a href="#">Egusi soup</a></li>
+                    <li><a href="#">Abacha</a></li>
+                    <li><a href="#">Oha Soup</a></li>
+                    <li><a href="#">Semo</a></li>
+                    <li><a href="#">Eba</a></li>
+                </ul>
+            </div>
+            <div class="f-content">
+                <h1>Follow Us</h1>
+                <hr>
+                <ul>
+                    <li><a href="https://twitter.com/VICTORIOUSMAN14" target="blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </footer>
+    <div class="f-paragraph">
+    <p>&copy 2022</p>
+    <p>Designed By: CORAT</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
