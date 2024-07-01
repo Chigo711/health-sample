@@ -397,7 +397,7 @@ p {
     center / cover;
   padding: 2rem 1rem;
 } */
-.inputDetail {
+/* .inputDetail {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -429,7 +429,7 @@ label {
   color: var(--section-text__color);
   font-family: var(--text-font__family);
   color: #fff;
-}
+} */
 .form-button {
   display: flex;
   justify-content: center;
@@ -451,7 +451,7 @@ label {
 }
 .order .sub-heading {
   font-size: 2rem;
-  color: green;
+  /* color: green; */
   text-align: center;
 }
 
@@ -491,7 +491,7 @@ label {
   padding: 1rem;
   font-size: 1.6rem;
   background: #eee;
-  color: green;
+  /* color: green; */
   text-transform: none;
   margin-bottom: 1rem;
   width: 100%;
@@ -503,14 +503,45 @@ label {
   resize: none;
 }
 .order .submit {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   outline: none;
-  margin-bottom: 1rem;
+  margin: 2rem 0;
 }
 .order .submit input {
   border: none;
 }
 
+.footerSection {
+  min-height: 40vh;
+  background: #01101b;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  padding: 4rem 5%;
+  color: #fff;
+}
+.footer-heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+.footer-links {
+  list-style: none;
+}
+.footer-list {
+  margin: 1rem 0;
+}
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 1.5rem 0;
+  font-size: 1.2rem;
+}
+
+/* END OF FOOTER SECTION STYLING */
 /* SLIDE IN ANIMATIONS STARTS */
 .animate {
   opacity: 0;
