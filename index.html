@@ -5,19 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Health Link</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="headerSec">
-      <nav class="navBar">
-        <div class="logo">Health Link</div>
-        <ul class="navLinks">
-          <li class="navList">
-            <a href="#" class="navLink">Home</a>
+      <nav class="navbar">
+        <div class="logo">My Website</div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#">Services</a>
+            <ul class="dropdown services-dropdown">
+              <li><a href="#">Symptoms Checker</a></li>
+              <li><a href="#">Health Record</a></li>
+              <li><a href="#">Health Tracker</a></li>
+              <li><a href="#">Fitness Tracker</a></li>
+              <li><a href="#">Medication reminder</a></li>
+              <li><a href="#">Book Appointments</a></li>
+              <li><a href="#">Virtual & Live consultations</a></li>
+            </ul>
           </li>
-          <li class="navList">
-            <a href="#" class="navLink"> Services</a>
-          </li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </header>
     <section class="heroSec">
@@ -79,7 +102,9 @@
                     fontSize: "4rem",
                     marginBottom: "1.5rem",
                   }} -->
-              />
+              <!-- /> -->
+              <!-- <i class="fa fa-" -->
+              <i class="fa fa-medkit iconStyle" aria-hidden="true"></i>
               <p class="box-paragraph">
                 Exceptional care tailored to your wellbeing - our dedicated team
                 is here to safeguard your health and empower your journey to
@@ -88,6 +113,7 @@
             </div>
             <div class="box">
               <!-- <FaCalendarAlt style={iconsStyle} /> -->
+              <i class="fa fa-calendar iconStyle" aria-hidden="true"></i>
               <p class="box-paragraph">
                 Seamlessly book your hospital appointments with our convenient
                 and reliable service - ensuring your healthcare needs are taken
@@ -411,5 +437,7 @@
       </ul>
     </footer>
     <!-- FOOTER SECTION ENDS NOW -->
+
+    <script src="script.js" defer></script>
   </body>
 </html>
